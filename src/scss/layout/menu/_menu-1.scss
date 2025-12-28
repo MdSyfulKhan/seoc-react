@@ -1,0 +1,55 @@
+@use "../../utils/" as *;
+
+/*============= FEATURES CSS AREA STARTS ===============*/
+.features15-section-area {
+  background: #f9fafb;
+  position: relative;
+  z-index: 1;
+  .features15-boxarea {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transition: all 0.4s;
+    border-radius: 8px;
+    background: var(--white, #fff);
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1),
+      0px 1px 2px -1px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-bottom: 30px;
+    .img1 {
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 8px;
+        border-radius: 8px;
+        background: var(--white, #fff);
+        box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1),
+          0px 1px 2px -1px rgba(0, 0, 0, 0.1);
+      }
+    }
+    a {
+      color: var(--Text-Color, #090b0e);
+      font-family: var(--primary-font);
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 125%;
+      transition: all 0.4s;
+      display: inline-block;
+      &:hover {
+        color: #1a56db;
+        transition: all 0.4s;
+      }
+    }
+    p {
+      color: var(--gray-500, var(--gray-500, #6b7280));
+      font-family: var(--primary-font);
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+    }
+  }
+}
+/*============= FEATURES CSS AREA ENDS ===============*/
